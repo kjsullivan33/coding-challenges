@@ -101,7 +101,12 @@ An algorithm is a process or set of steps to accomplish a certain task
 ### Common Recursion Pitfalls
   * No base case or wrong base case
 
-
+### Pure Recursion Tips
+  * For arrays, use methods like slice, the spread operator, and concat that makes 
+    copies of arrays so you do not mutate them
+  * Strings are immutable so you will need to use methods like slice, substr, or substring
+    to make copies of strings
+  * To make copies of objects use Object.assign, or the spread operator
 
 
 
