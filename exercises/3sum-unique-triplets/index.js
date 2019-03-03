@@ -28,11 +28,9 @@ let threeSum = (nums) => {
       }
     }
 }
-  console.log(uniqueTriplets);
-  return uniqueTriplets;
+  // console.log(uniqueTriplets);
 
 }
 
-threeSum([-1, 0, 1, 2, -1, -4]);
 
 module.exports = threeSum;

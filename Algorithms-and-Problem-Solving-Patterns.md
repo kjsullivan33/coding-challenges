@@ -72,4 +72,36 @@ An algorithm is a process or set of steps to accomplish a certain task
   * Dividing a data set into smaller chunks and then repeating a process with a subset of data
   * Can tremendously decrease time complexity
 
+##Recursion
+ Once upon a time, there was Martin and a dragon.  One day, Martin is talking to a wizard
+ who gives him a list of numbers and tasks him with talking to the dragon. Come back to me and tell me if any of the numbers are odd. Excuse me, Mr. Dragon.  Are any of these numbers odd?  (3142 5798 6550 5914) The dragon says, sorry I'll only tell you if the first number in that list is odd. Ok fine, what about the first number in this list? Not odd! Martin leaves and comes back. Okay, what about the first number in this list? (5798 6550 5914) Not odd! He does it again! 
+ (6550 5914) Not odd! Once more! (5914) Not odd! What about this list () It's empty, there's no number in there. So all the number are even in the list!
+  * Define what recursion is and how it can be used
+  * Understand the two essential components of a recursive function
+  * Visualize the call stack to better debug and understand recursive functions
+  * Use helper method recursion and pure recursion to solve more difficult problems
+
+### Why use Recursion?
+  * Recursion is a process (a function for example) that calls itself
+  * It's everywhere (JSON.parse/JSON.stringify)
+  * Object traversal
+  * Will see it with more complex data structures like trees
+  * It's sometimes a cleaner alternative to iteration
+
+### The Call Stack
+  * A data structure
+  * Any time a function is invoked it is placed (pushed) on top of the call stack
+  * When JavaScript sees the return keyword, or when the function ends, the compiler
+    will remove (pop)
+
+### How Recursive Functions Work
+  * Invoke the same function with a different input until you reach the base case
+  * The base case is the condition when the recursion ends
+
+### Common Recursion Pitfalls
+  * No base case or wrong base case
+
+
+
+
 

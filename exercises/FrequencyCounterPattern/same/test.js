@@ -24,3 +24,7 @@ test('same result should equal', () => {
 test('same result should equal', () => {
   expect(same([0],[0])).toBe(true);
 });
+
+test('same result should equal', () => {
+  expect(same([1,2,3,4], [1,4,9,15])).toBe(false);
+});

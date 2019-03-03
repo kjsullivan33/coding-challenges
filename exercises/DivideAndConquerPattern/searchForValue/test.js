@@ -12,6 +12,6 @@ test('The result of search equals', () => {
 //   expect(search([1, 2, 3, 4, 5, 6], 6)).toEqual(5);
 // });
 
-// test('The result of search equals', () => {
-//   expect(search([1, 2, 3, 4, 5, 6], 11)).toEqual(-1);
-// });
+test('The result of search equals', () => {
+  expect(search([1, 2, 3, 4, 5, 6], 11)).toEqual(-1);
+});

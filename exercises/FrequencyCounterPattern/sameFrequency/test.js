@@ -19,3 +19,7 @@ test('The result of sameFrequency equals', () => {
 test('The result of sameFrequency equals', () => {
   expect(sameFrequency(22,222)).toBe(false);
 });
+
+test('The result of sameFrequency equals', () => {
+  expect(sameFrequency(2233, 2234)).toBe(false);
+});
