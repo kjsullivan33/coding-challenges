@@ -9,6 +9,11 @@ test('The result of findValueInSortedArray equals', () => {
 });
 
 test('The result of findValueInSortedArray equals', () => {
+  expect(findValueInSortedArray([1, 3, 4, 6, 8, 9, 11, 12, 15, 16, 17, 18, 19], 27)).toEqual(-1);
+});
+
+
+test('The result of findValueInSortedArray equals', () => {
   expect(findValueInSortedArray(['a','b','c','d','e','f','g'], 'c')).toEqual(2);
 });
 
