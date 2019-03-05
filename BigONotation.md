@@ -76,3 +76,15 @@
   * Removal - It depends... O(1) or O(n)
   * Searching O(n)
   * Access - O(n)
+
+### Stacks
+  * Insertion - O(1)
+  * Removal - O(1)
+  * Searching - O(n)
+  * Access - O(n)
+
+### Queues
+  * Insertion - O(1)
+  * Removal - O(1)
+  * Searching - O(n)
+  * Access - O(n)

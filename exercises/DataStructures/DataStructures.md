@@ -9,3 +9,12 @@
   * Each node is only connected in one direction to the next node
   * No indexes, random access not allowed
   * Quick Insertion and Deletion for long data sets (when you don't need random access)
+
+### Stacks and Queues
+  * Stack
+    * A LIFO data structure
+    * The last element added will be the first element removed
+    * Used for managing function invocations, Undo/Redo, Routing (history of pages viewed)
+  * Queue
+    * A FIFO data structure
+    * Background tasks, uploading resources, printing/task processing
