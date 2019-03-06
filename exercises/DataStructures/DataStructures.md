@@ -18,3 +18,33 @@
   * Queue
     * A FIFO data structure
     * Background tasks, uploading resources, printing/task processing
+
+### Trees
+  * Trees
+    * A data structure that consists of nodes in a parent/child relationship
+    * Nonlinear
+    * Terminology
+      * Root: top node 
+      * Child: a node directly connected to another node when moving away from the root
+      * Parent: converse notion of a child
+      * Siblings: A group of nodes with the same parent
+      * Leaf: a node with no children
+      * Edge: the connection between one node and another
+      * Branch: a node that is not the root and has children
+    * Uses
+      * HTML DOM
+      * Network Routing
+      * Abstract Syntax Trees
+      * Artificial Intelligence (Decision trees)
+      * Folders in Operating Systems
+      * JSON object
+  * Binary Trees
+    * Each node can only have at most two child nodes (left and right)
+  * Binary Search Trees
+    * Special Binary Tree
+    * Sorted
+      * Left child is less than parent
+      * Right child is greater than parent
+    * Why?
+      * Quick to insert and search
+      

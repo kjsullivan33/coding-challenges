@@ -88,3 +88,7 @@
   * Removal - O(1)
   * Searching - O(n)
   * Access - O(n)
+
+### Binary Search Trees
+  * Insertion - O(log n) : This is best case not guaranteed
+  * Searching - O(log n) : This is best case not guaranteed
